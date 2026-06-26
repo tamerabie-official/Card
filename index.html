@@ -5,12 +5,15 @@
 <path d="M 0 20 Q 0 0 20 0 L 35 0 L 35 600 L 20 600 Q 0 600 0 580 Z" fill="#d9531e"/>
 <!-- المربع العلوي الأيمن المحدث بكودك المخصص -->
 <g transform="translate(770, 60)">
-<rect width="210" height="210" rx="12" fill="#ffffff" filter="drop-shadow(0px 8px 20px rgba(0,0,0,0.5))"/>
-<!-- إدراج صورة الباركود كملف محلي -->
-<image href="barcode.png" x="15" y="15" width="180" height="180"/>
-<text x="105" y="240" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#15171e" text-anchor="middle">SCAN TO VISIT</text>
+  <rect width="210" height="210" rx="12" fill="#ffffff" filter="drop-shadow(0px 8px 20px rgba(0,0,0,0.5))"/>
+  
+  <!-- إدراج صورة الباركود كـ Base64 -->
+  <image href="data:image/png;base64,ضع_النص_المشفر_هنا" 
+         x="15" y="15" width="180" height="180"/>
+  
+  <text x="105" y="240" font-family="Segoe UI, sans-serif" font-size="14" font-weight="bold" fill="#15171e" text-anchor="middle">SCAN TO VISIT</text>
 </g>
-<!-- بيانات الهوية والاتصال (إنجليزية فقط - يسار) -->
+  <!-- بيانات الهوية والاتصال (إنجليزية فقط - يسار) -->
 <g transform="translate(90, 0)">
 <!-- الاسم الثنائي البارز -->
 <text y="200" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="1">Tamer Rabie</text>
